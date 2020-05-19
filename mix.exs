@@ -34,7 +34,7 @@ defmodule NewRelicPhoenix.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:phoenix, "~> 1.4"},
-      {:new_relic_agent, git: "https://github.com/raksonibs/elixir_agent"},
+      {:new_relic_agent, git: "https://github.com/raksonibs/elixir_agent"}
     ]
   end
 end
